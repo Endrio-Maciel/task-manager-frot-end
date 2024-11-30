@@ -1,0 +1,41 @@
+.header {
+    background: var(--gray-600);
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem;
+    width: 100%;
+    margin: 0;
+}
+
+.header img {
+    height: 3rem;
+}
+
+.header h1 {
+    padding: .1rem 2rem;
+    color: var(--white);
+}
+
+@media(max-width: 500px){
+
+    .header h1{
+    margin: 0;
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width: 400px){
+    .header{
+        display: flex;
+        align-items: center;
+    }
+
+    .header h1{
+    margin: 0;
+        font-size: 1rem;
+    }
+
+    .header img{
+        width: 2rem;
+    }
+}
